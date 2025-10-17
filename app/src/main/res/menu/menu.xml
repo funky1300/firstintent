@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/contact"
+        android:orderInCategory="100"
+        android:title="contact"
+        app:showAsAction="always"
+
+        > </item>
+    <item
+        android:id="@+id/add_products"
+        android:orderInCategory="100"
+        android:title="Add Products"
+        app:showAsAction="always"
+        > </item>
+
+    <item
+        android:id="@+id/show_cart"
+        android:orderInCategory="100"
+        android:title="show cart"
+        app:showAsAction="always"
+        > </item>
+</menu>
