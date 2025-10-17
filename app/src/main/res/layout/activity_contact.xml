@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_gray_background"
@@ -20,7 +21,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="📞 Contact Us"
+            android:text="Contact Us"
             android:textSize="30sp"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
@@ -48,14 +49,14 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/buttonCall"
+                android:id="@+id/call"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="📱 Call Us"
+                android:text="Call Us"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
-                android:background="#5C6BC0"
+                android:background="@color/my_purple"
                 android:padding="16dp"
                 android:layout_marginBottom="12dp"
                 android:elevation="2dp" />
@@ -64,11 +65,11 @@
                 android:id="@+id/buttonEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="📧 Email Us"
+                android:text="Email Us"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
-                android:background="#FF7043"
+                android:background="@color/my_purple"
                 android:padding="16dp"
                 android:layout_marginBottom="12dp"
                 android:elevation="2dp" />
@@ -77,11 +78,11 @@
                 android:id="@+id/buttonWhatsApp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="💬 WhatsApp"
+                android:text="WhatsApp"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
-                android:background="#2E7D32"
+                android:background="@color/my_purple"
                 android:padding="16dp"
                 android:layout_marginBottom="12dp"
                 android:elevation="2dp" />
@@ -94,7 +95,7 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
-                android:background="#7B1FA2"
+                android:background="@color/my_purple"
                 android:padding="16dp"
                 android:layout_marginBottom="24dp"
                 android:elevation="2dp" />
