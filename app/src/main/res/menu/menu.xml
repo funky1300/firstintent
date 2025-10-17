@@ -22,4 +22,11 @@
         android:title="show cart"
         app:showAsAction="always"
         > </item>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="about"
+        app:showAsAction="always"
+
+        > </item>
 </menu>

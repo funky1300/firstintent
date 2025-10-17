@@ -55,6 +55,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent gogu = new Intent(this, contact.class);
             startActivity(gogu);
         }
+        if(itemid == R.id.about)
+        {
+            Intent gogu = new Intent(this, abut.class);
+            startActivity(gogu);
+        }
+
 
         return super.onOptionsItemSelected(item);
 

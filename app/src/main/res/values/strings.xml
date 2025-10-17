@@ -3,9 +3,9 @@
     <string name="about_version">Version</string>
     <string name="about_version_number">1.0.0</string>
     <string name="about_developed_by">Developed By</string>
-    <string name="your_name">[Your Name Here]</string>
+    <string name="your_name">evyatar</string>
     <string name="about_contact_us">Contact Us</string>
-    <string name="your_email">your.email@example.com</string>
+    <string name="your_email">evyatar.aviel1@gmail.com</string>
     <string name="about_page_title">About GrocerEase</string>
     <string name="rate_the_app">Rate The App</string>
 </resources>
